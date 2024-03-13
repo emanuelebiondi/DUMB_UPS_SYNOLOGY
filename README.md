@@ -9,7 +9,7 @@ The first version consists of a "Dead Man Server," which is a device not connect
 The second version, will be an API server, a device connected directly to the UPS power supply and with physical connections to the UPS LEDs. This will allow us to read the system status and any power outages. It goes without saying that this type of implementation must be adapted to each specific NAS, and it involves opening it up and making solder connections inside the UPS's motherboard.
 
 # Synology NAS 
-Una volta configurato l'esp8266 server non rimane che connettersi tramite SSH al Synology NAS e caricare il file "dump_script.py". Successivamente si dovrà impostare un cron job che eseguirà ogni minuto tale script.
+Once the ESP8266 server is configured, the next step is to connect to the Synology NAS via SSH and upload the "dump_script.py" file. Then, you'll need to set up a cron job that will execute this script every minute.
 
 
 ## Acknowledgements  
