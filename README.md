@@ -5,7 +5,7 @@ This small project stems from the need to make an old UPS "smart" in order to no
 The first version consists of a "Dead Man Server," which is a device not connected to the UPS power supply but directly to the household electrical network. When this device goes offline (dead), I will know that the power-connection has been lost.
 
 
-# I Version - API Server
+# II Version - API Server
 The second version, will be an API server, a device connected directly to the UPS power supply and with physical connections to the UPS LEDs. This will allow us to read the system status and any power outages. It goes without saying that this type of implementation must be adapted to each specific NAS, and it involves opening it up and making solder connections inside the UPS's motherboard.
 
 # Synology NAS 
